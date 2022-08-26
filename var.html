@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+        var a=100;
+        var b=200;
+        //variable are global scope
+        // var variable are redeclare
+        document.write(a,"<br>")
+
+        ///let variable is bloack scope
+        //let  variable can not be redeclare
+        let  no1=200;
+        {
+            let no2=223;
+            document.write(no2,"<br>")
+            document.write(b,"<br>");
+        }
+        document.write(no1);
+
+    </script>
+    </body>
+</html>
