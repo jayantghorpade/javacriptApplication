@@ -5,7 +5,18 @@
             var obj={jay:10,ketan:23,xyz:24}
             for(let i=0;i<Object.keys(obj).length;i++)
             {
-                document.write(Object.keys(obj)[i],"<br>");
+                document.write(Object.keys(obj)[i]+"=",obj[Object.keys(obj)[i]],"<br>");
+            }
+        </script>
+        <script>
+            var student={
+                sname:"jayant",
+                lname:"ghorpade",
+                age:23
+            }
+            for(let i=0;i<Object.keys(student).length;i++)
+            {
+                document.write(Object.keys(student)[i],"=",student[Object.keys(student)[i]],"<br>")
             }
         </script>
     </body>
