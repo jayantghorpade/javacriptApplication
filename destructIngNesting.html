@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = ["jayant", 23, 11, ["nashik", 9370757200]];
+        var [name, args, no, [village, mno = 20]] = arr;
+        document.write(village, "<br>")
+        document.write(mno, "<br>")
+        document.write(no, "<br>")
+
+
+        //using rest operator
+        var studentDetails = ["jayant", "ghorpade", 23, "nashik", "Msc"]
+        var [name, ...all] = studentDetails;
+        document.write(name, "<br>")
+        document.write(all, "< br > ")
+
+    </script>
+
+</body>
+
+</html>
